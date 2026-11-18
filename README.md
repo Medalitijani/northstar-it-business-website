@@ -2,7 +2,7 @@
 
 A responsive, multilingual business website concept for an IT services provider serving SMEs in Tunis and Greater Tunis.
 
-## Included
+## Included\n- `assets/css/styles.css` — responsive brand design system.\n- `assets/js/main.js` — FR/EN/AR language switching, mobile navigation and contact form behavior.\n- `assets/img/logo.svg`, `assets/img/favicon.svg` — brand assets.
 - `index.html` — single-page marketing website with hero, services, about, process, illustrative case studies, resources, contact and footer.
 - `assets/css/styles.css` — responsive visual system and layouts.
 - `assets/js/main.js` — mobile navigation, French/English/Arabic language switching, contact mailto handler and cookie notice.
