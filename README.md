@@ -42,3 +42,19 @@ This is a polished starter project, not a verified operating company website. Be
 
 ## Suggested hosting
 Static hosting works: GitHub Pages, Netlify, Cloudflare Pages or any HTTPS web host. For a production contact form, connect a backend/API or form provider; static hosting alone cannot securely process and store submissions.
+
+
+## Contact form backend (Netlify + Resend)
+
+The form now posts to `/.netlify/functions/contact`. The function sends enquiries through Resend and keeps the API key server-side. Before deployment, configure these Netlify environment variables:
+
+- `RESEND_API_KEY`: Resend API key (secret).
+- `CONTACT_TO_EMAIL`: real inbox that receives enquiries.
+- `CONTACT_FROM_EMAIL`: sender address on a domain verified in Resend.
+- `ALLOWED_ORIGINS`: comma-separated production origin(s), e.g. `https://your-real-domain.tld`.
+
+The browser never receives the Resend key. The function validates fields, checks the origin, uses a honeypot field and returns generic delivery errors. Add platform-level rate limiting / bot protection before broad public launch. The form will return a configuration error until the environment variables are set.
+
+## Outstanding launch blockers
+
+The legal/commercial name, public business email, registered domain and company/legal identifiers were not supplied. Do not publish with invented details. The Northstar IT identity is still a temporary mock brand and has not been cleared with INNORPI or through legal review. Privacy and terms pages remain templates pending actual company details and local legal review.
