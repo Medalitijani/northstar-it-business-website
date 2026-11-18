@@ -1,3 +1,1 @@
-User-agent: *
-Allow: /
-Sitemap: https://example.com/sitemap.xml
+User-agent: *\nAllow: /\nSitemap: https://your-domain.tn/sitemap.xml\n
