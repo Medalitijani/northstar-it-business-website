@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>https://your-domain.tn/</loc></url>\n  <url><loc>https://your-domain.tn/privacy.html</loc></url>\n  <url><loc>https://your-domain.tn/terms.html</loc></url>\n</urlset>\n
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Replace https://YOUR-REGISTERED-DOMAIN before publishing. -->
+  <url><loc>https://YOUR-REGISTERED-DOMAIN/</loc></url>
+  <url><loc>https://YOUR-REGISTERED-DOMAIN/privacy.html</loc></url>
+  <url><loc>https://YOUR-REGISTERED-DOMAIN/terms.html</loc></url>
+</urlset>
