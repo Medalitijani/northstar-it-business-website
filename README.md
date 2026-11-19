@@ -55,6 +55,10 @@ The form now posts to `/.netlify/functions/contact`. The function sends enquirie
 
 The browser never receives the Resend key. The function validates fields, checks the origin, uses a honeypot field and returns generic delivery errors. Add platform-level rate limiting / bot protection before broad public launch. The form will return a configuration error until the environment variables are set.
 
+## Project ownership and current preview status
+
+This is a personal web-development project by **Mohamed Ali Tijani**. Northstar IT is a fictional demonstration brand, not a registered company or a client engagement. The public GitHub Pages URL is a static preview: GitHub Pages does not execute the Netlify Function, so the contact form will not deliver enquiries from that preview. To enable delivery, deploy the site on Netlify and configure `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL`, and `ALLOWED_ORIGINS` as described above. The public email address and legal identity must be supplied and verified before any real-business launch.
+
 ## Outstanding launch blockers
 
 The legal/commercial name, public business email, registered domain and company/legal identifiers were not supplied. Do not publish with invented details. The Northstar IT identity is still a temporary mock brand and has not been cleared with INNORPI or through legal review. Privacy and terms pages remain templates pending actual company details and local legal review.
