@@ -55,7 +55,7 @@ The public GitHub Pages preview is static and **cannot execute the Netlify Funct
 ## Verification status and limitations
 
 - The HTML, CSS, and JavaScript source are present in the repository.
-- The Netlify Function source is present, but a working production deployment and successful end-to-end email delivery have not been independently verified as part of this repository review.
+- The contact form has been tested end to end on the Netlify deployment, with email delivery through Resend confirmed.
 - The contact recipient, verified sender domain, real business identity, and domain are not configured as public business details.
 - Privacy and terms pages are templates and require completion and appropriate local legal review before any real-business use.
 - Add platform-level rate limiting or bot protection before public production use.
