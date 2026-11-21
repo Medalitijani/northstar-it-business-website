@@ -59,7 +59,7 @@ The public GitHub Pages preview is static and **cannot execute the Netlify Funct
 - The contact recipient, verified sender domain, real business identity, and domain are not configured as public business details.
 - Privacy and terms pages are templates and require completion and appropriate local legal review before any real-business use.
 - Add platform-level rate limiting or bot protection before public production use.
-- Keyboard navigation, screen-reader behavior, and cross-device testing should be recorded with evidence before claiming accessibility compliance.
+- Keyboard navigation, screen-reader behavior, and cross-device testing should be recorded with evidence before claiming accessibility, compliance.
 
 ## Design and content maintenance
 
