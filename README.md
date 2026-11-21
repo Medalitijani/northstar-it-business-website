@@ -8,7 +8,7 @@ A personal web-development project by **Mohamed Ali Tijani**: a responsive, mult
 
 - Build a responsive single-page business website without a frontend framework.
 - Provide French, English, and Arabic language switching, including right-to-left layout support.
-- Present service, process, illustrative case-study, resource, and contact sections.
+- Present service, process, illustrative case-study, and contact sections.
 - Implement a contact form frontend and a serverless email-delivery integration.
 
 ## Technology
